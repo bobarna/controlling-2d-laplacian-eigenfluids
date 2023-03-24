@@ -47,7 +47,5 @@ jupyter notebook
 - [Shape sampling demo](https://colab.research.google.com/github/bobarna/controlling-2d-laplacian-eigenfluids/blob/main/shape-samples-demo.ipynb)
 
 ### Code Layout
-- `docs/`: LaTeX source of the thesis
 - `src/`: Python/Φ<sub>Flow</sub> source code, imported in the notebooks
 - `*.ipynb`: interactive notebook files
-
