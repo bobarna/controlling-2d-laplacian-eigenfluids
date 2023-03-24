@@ -39,12 +39,13 @@ pip install notebook
 jupyter notebook
 ```
 #### In Google Colab (TBA)
-- Intro 
-- Optimization -- Velocity Only
-- Optimization -- Initial Velocity for Points
-- Optimization -- Control Force
-- Neural Network for Control Force Estimation
-- Shape sampling demo
+- [Intro](https://colab.research.google.com/github/bobarna/controlling-2d-laplacian-eigenfluids/blob/main/eigenfluid-intro.ipynb)
+- [Optimization -- Velocity Only](https://colab.research.google.com/github/bobarna/controlling-2d-laplacian-eigenfluids/blob/main/eigenfluid-optimization-velocity-only.ipynb)
+- [Optimization -- Initial Velocity for Points](https://colab.research.google.com/github/bobarna/controlling-2d-laplacian-eigenfluids/blob/main/eigenfluid-optimization-points.ipynb)
+- [Optimization -- Control Force](https://colab.research.google.com/github/bobarna/controlling-2d-laplacian-eigenfluids/blob/main/eigenfluid-force-optimization.ipynb)
+- [Neural Network for Control Force Estimation](https://colab.research.google.com/github/bobarna/controlling-2d-laplacian-eigenfluids/blob/main/network-training.ipynb)
+
+- [Shape sampling demo](https://colab.research.google.com/github/bobarna/controlling-2d-laplacian-eigenfluids/blob/main/shape-samples-demo.ipynb)
 
 ### Code Layout
 - `docs/`: LaTeX source of the thesis
