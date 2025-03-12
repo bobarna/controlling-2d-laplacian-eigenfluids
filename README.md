@@ -1,6 +1,6 @@
 # Controlling 2D Laplacian Eigenfluids
-This is the source code repository for the CESCG 2023 paper Controlling 2D
-Laplacian Eigenfluids.
+This is the source code repository for the CESCG 2023 paper [Controlling 2D
+Laplacian Eigenfluids](https://cescg.org/wp-content/uploads/2023/04/Borcsok-Controlling-2D-Laplacian-Eigenfluids-6.pdf).
 
 The Central European Seminar on Computer Graphics (CESCG) is an annual student
 seminar (non-peer reviewed). [More info](https://cescg.org/)
@@ -17,6 +17,18 @@ In our work, we investigate the use of Laplacian Eigenfunctions to model and
 control fluid flow. We make use of an explicit description of our simulation
 domain to derive gradients of the physical simulation, enabling neural network
 agents to learn to control the physical process to achieve desired outcomes.
+
+## Citation
+If you found this work useful in your research, please consider citing it using the following BibTeX entry:
+```
+@inproceedings{borcsok2023,
+  title       = {Controlling 2D Laplacian Eigenfluids},
+  author      = {B{\"o}rcs{\"o}k, Barnab{\'a}s and Sz{\'e}csi, L{\'a}szl{\'o}},
+  booktitle   = {Proceedings of CESCG 2023: The 27th Central European Seminar on Computer Graphics},
+  year        = {2023},
+  url         = {https://cescg.org/wp-content/uploads/2023/04/Borcsok-Controlling-2D-Laplacian-Eigenfluids-6.pdf}
+}
+```
 
 ## Running the Code
 ### Dependencies
